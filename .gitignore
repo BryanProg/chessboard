@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+# Others
+*.json
+*.cmake
+*.exe
+*.ninja
+*.ninja_log
+*.ninja_deps
+
+# Files
+CMakeCache.txt
+ChessBoard
