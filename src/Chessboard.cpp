@@ -427,7 +427,7 @@ namespace CBL
 
     void chessboard::target_horizontal_move(horizontal_move move)
     {
-        auto aux = get_tile((*target_plate)->pos_w + (int32_t)move, (*target_plate)->pos_h);
+        auto aux = get_tile((*target_plate)->pos_w + static_cast<int32_t>(move), (*target_plate)->pos_h);
 
         if((*aux)->state_object)
             return;
